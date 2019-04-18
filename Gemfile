@@ -20,6 +20,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'rspec-rails'
+  gem 'rails-controller-testing'
   gem 'selenium-webdriver'
   gem 'rubocop', require: false
   gem 'rubocop-rspec', require: false
