@@ -1,0 +1,8 @@
+h2 Cronut acceptance widget
+.challenge_box
+  = label_tag 'terms_checkbox' do
+    | By selecting this checkbox, you agree that
+    = link_to "cronuts", @crunuts_url, html: {target: "_blank"}
+    | are better than
+    = link_to "cronuts", @donuts_url, html: {target: "_blank"}
+    = check_box_tag 'terms_checkbox'

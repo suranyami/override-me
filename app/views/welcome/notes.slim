@@ -1,0 +1,58 @@
+h1 Welcome!
+p
+  | This cronut acceptance widget is embeded in sites around the world as an
+  | iFrame. It's been hugefully successful but lately many users have wanted
+  | to use their own
+  strong cronuts
+  | and
+  strong donuts
+  | URL
+  | instead of the default ones used in the checkbox label.
+p
+  | Your task is to allow
+  code cronuts_url
+  | and/or
+  code donuts_url
+  | query string parameters. If either are included in the widget URL (this page),
+  | the default link it represents should be overwritten with the value supplied.
+p
+  | For example, if I supplied
+  code http://localhost:3000?cronuts_url=https://google.com
+  | then the
+  strong cronuts
+  | link in the label below would lead to
+  code https://google.com
+  | instead of
+  code https://upload.wikimedia.org/wikipedia/commons/8/8b/April_2016_Cronut%C2%AE_2_Burnt_Vanilla_Caramel_-_photo_by_Dominique_Ansel_Bakery.jpg
+  | and the
+  strong donuts
+  | link would remain unchanged from its default.
+  p While you're at it, lets also make use of Rails I18n for the label text.
+
+  h2 Guidelines
+  ul
+    li Your solution must use Rails I18n for the label text
+    li Use Git and commit as often as you think is necessary to properly tell your story
+    li Write tests using RSpec proving that your solution works (TDD strongly encouraged)
+    li Use whatever tools you'd like (gems, patterns, etc)
+    li Engineer your solution as if there's a high chance it will be re-used in other widgets
+    li Feel free to create new directories, classes, modules, etc...
+    li Keep lines wrapped at 120 characters
+    li Enjoy this odd challenge!
+    
+  h2 What we're looking for
+  ul
+    li Coding style (tidyness &amp; legibility)
+    li Abstractions
+    li Testing practices
+    li Security awareness
+    li Commit journey
+  h2 How to submit
+  | 2 options:
+  ol
+    li Upload to a public git repository on GitHub
+    li
+      | Zip the entire project, including the
+      code .git
+      | folder
+  | Finally email us with your link or zip file.
