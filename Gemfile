@@ -21,6 +21,10 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'rubocop', require: false
   gem 'rubocop-rspec', require: false
+  gem 'guard-rails'
+  gem 'guard-rspec'
+  gem 'guard-bundler'
+  gem 'guard-rubocop'
 end
 
 group :development do
