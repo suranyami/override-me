@@ -1,5 +1,5 @@
 h2 Cronut acceptance widget
 .challenge_box
   = label_tag 'terms_checkbox' do
-    = it 'welcome.index.super_terms_html', cronuts_url: It.link(@cronuts_url), donuts_url: It.link(@donuts_url)
+    = it 'welcome.index.super_terms_html', cronuts_link: new_page(@cronuts_url), donuts_link: new_page(@donuts_url)
     = check_box_tag 'terms_checkbox'

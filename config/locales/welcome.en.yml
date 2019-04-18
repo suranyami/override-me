@@ -2,4 +2,4 @@ en:
   welcome:
     index:
       super_terms_html: |
-        By selecting this checkbox, you agree that %{cronuts_url:cronuts} are better than %{donuts_url:donuts}
+        By selecting this checkbox, you agree that %{cronuts_link:cronuts} are better than %{donuts_link:donuts}
