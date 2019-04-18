@@ -11,6 +11,7 @@ guard :bundler do
 end
 
 # ----------------------------------------------------------
+
 rails_options = {
   force_run: true
 }

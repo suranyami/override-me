@@ -101,6 +101,8 @@ GEM
       rubocop (~> 0.20)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
+    it (1.0.0)
+      actionpack (>= 3.0.0)
     jaro_winkler (1.5.2)
     jbuilder (2.8.0)
       activesupport (>= 4.2.0)
@@ -280,6 +282,7 @@ DEPENDENCIES
   guard-rails
   guard-rspec
   guard-rubocop
+  it
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.7)
